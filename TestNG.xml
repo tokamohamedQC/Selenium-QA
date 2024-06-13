@@ -3,6 +3,7 @@
 <suite name="QAcart-selenium">
 
     <test name="regression">
+
         <classes>
             <class name="Basics.LoginPageTest"/>
         </classes>

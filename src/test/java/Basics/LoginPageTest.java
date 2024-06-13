@@ -47,6 +47,7 @@ public class LoginPageTest extends TestBase{
         screenShots(method.getName());
     }
 
+
     @Test (priority = 3)
     public void imgTest(Method method) throws IOException{
         wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("//img[@src='https://classic.freecrm.com/img/logo@2x.png']"))));

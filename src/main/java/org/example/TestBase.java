@@ -45,6 +45,7 @@ public class TestBase{
         driver.quit();
     }
 
+
     public void screenShots(String name) throws IOException {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(srcFile, new File("C:\\Users\\toka.ezzeldin\\IdeaProjects\\selenium_QAcart\\snapshots\\"+name+".png"));
